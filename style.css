@@ -1,0 +1,107 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    head-buttons a {
+        padding: 2px;
+    }
+    
+    .whatweare {
+        background-color: rgb(248, 246, 246);
+    }
+    /* NAVBAR CSS*/
+    
+    #home {
+        color: black;
+        font-size: smaller;
+    }
+    
+    li {
+        padding: 10px;
+    }
+    
+    #c {
+        padding: 1px;
+    }
+    
+    #home:hover {
+        background-color: rgba(35, 74, 202, 0.863);
+        color: white;
+        border-radius: 20px;
+    }
+    
+    #homee {
+        background-color: rgba(35, 74, 202, 0.863);
+        color: white;
+        border-radius: 20px;
+        font-size: smaller;
+    }
+    
+    #logo {
+        width: 200px;
+        height: 60px;
+        float: left;
+    }
+    
+    #myBtn:hover {
+        background-color: rgb(177, 174, 174);
+        /* Add a dark-grey background on hover */
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    /* Dropdown Content (Hidden by Default) */
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    /* Links inside the dropdown */
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: smaller;
+    }
+    /* Change color of dropdown links on hover */
+    
+    .dropdown-content a:hover {
+        background-color: rgba(35, 74, 202, 0.863);
+        color: white;
+        text-decoration: none;
+    }
+    /* Show the dropdown menu on hover */
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    /* top up button  */
+    
+    .back-to-top {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        display: none;
+    }
